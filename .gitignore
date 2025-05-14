@@ -1,14 +1,45 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
 *.VC.db
 *.opensdf
-*.opendb
 *.sdf
-*.sln
 *.suo
+*.user
+*.userosscache
+*.log
+*.tlog
+*.tmp
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.sbr
+*.sdf
+*.opensdf
+*.sln.docstates
 *.xcodeproj
-*.xcworkspace
+
+# Ignore Visual Studio / Rider / Code
+.vs/
+.idea/
+*.code-workspace
+
+# Ignore build and compiled files
+*.dll
+*.exe
+*.obj
+*.pch
+*.lib
+
+# Ignore crash reports and logs
+*.dmp
+*.log
+*.mdmp
+
+# Git
+*.orig
+*.rej
